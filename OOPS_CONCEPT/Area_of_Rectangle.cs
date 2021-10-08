@@ -1,26 +1,57 @@
 ﻿using System;
 
-namespace OOPS_CONCEPT
+namespace OOPs_Concept
 {
+    //Encapsulation Area of Rectangle
     class Area_of_Rectangle
     {
-        double length;
-        double width;
-        public void Rectangle()
+        // public methods of class
+        private double length;
+        private double width;
+
+        // using accessors to get and 
+        // set the value of studentName
+        public double Length
         {
-            length = 10;
-            width = 20;
-        }
-        public double Area()
-        {
-             return length * width;
+
+            get
+            {
+                return length;
+            }
+
+            set
+            {
+                length = value;
+            }
+
         }
 
-        public void Display()
+        // using accessors to get and 
+        // set the value of studentAge
+        public double Width
         {
-            Console.WriteLine("Length:", length);
-            Console.WriteLine("Width:", width);
-            Console.WriteLine("Area:", Area());
+
+            get
+            {
+                return width;
+            }
+
+            set
+            {
+                width = value;
+            }
+        }
+    }
+    class Output
+    {
+        public static void Main()
+        {
+            Area_of_Rectangle r = new Area_of_Rectangle();
+            r.Length = 10;
+            r.Width = 20;
+            Console.WriteLine("Length: " + r.Length);
+            Console.WriteLine("Width:" + r.Width);
+            Console.WriteLine("Area:" + r.Length * r.Width);
         }
     }
 }
