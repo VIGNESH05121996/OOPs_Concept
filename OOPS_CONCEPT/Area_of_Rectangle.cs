@@ -2,7 +2,7 @@
 
 namespace OOPS_CONCEPT
 {
-    class Area_of_Rectangle
+    class AreaOfRectangle
     {
         double length;
         double width;
