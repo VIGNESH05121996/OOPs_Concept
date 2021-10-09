@@ -2,7 +2,7 @@
 
 namespace OOPS_CONCEPT
 {
-    class Area_of_Rectangle
+    class AreaOfRectangle
     {
         double length;
         double width;
@@ -20,7 +20,7 @@ namespace OOPS_CONCEPT
         {
             static void Main()
             {
-                Area_of_Rectangle r = new Area_of_Rectangle();
+                AreaOfRectangle r = new AreaOfRectangle();
                 r.Rectangle(10, 20);
             }
         }
