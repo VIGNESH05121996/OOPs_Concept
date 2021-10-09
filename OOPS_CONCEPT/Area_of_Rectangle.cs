@@ -2,13 +2,13 @@
 
 namespace OOPS_CONCEPT
 {
-    public abstract class Area_of_Rectangle
+    public abstract class AreaOfRectangle
     {
         public double length = 10;
         public double width = 20;
         public abstract void Area();
     }
-    public class Rect1 : Area_of_Rectangle
+    public class Rect1 : AreaOfRectangle
     {
         public override void Area()
         {
@@ -17,7 +17,7 @@ namespace OOPS_CONCEPT
 
     }
 
-    public class Rect2 : Area_of_Rectangle
+    public class Rect2 : AreaOfRectangle
     {
         public override void Area()
         {
@@ -26,7 +26,7 @@ namespace OOPS_CONCEPT
 
     }
 
-    public class Are_Rect : Area_of_Rectangle
+    public class AreRect : AreaOfRectangle
     {
         public override void Area()
         {
@@ -36,16 +36,16 @@ namespace OOPS_CONCEPT
 
     }
 
-    public class area_rect
+    public class arearect
     {
         public static void Main()
         {
-            Area_of_Rectangle r;
+            AreaOfRectangle r;
             r = new Rect1();
             r.Area();
             r = new Rect2();
             r.Area();
-            r = new Are_Rect();
+            r = new AreRect();
             r.Area();
         }
            
