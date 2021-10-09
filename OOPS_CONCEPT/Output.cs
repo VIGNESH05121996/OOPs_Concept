@@ -10,7 +10,7 @@ namespace OOPS_CONCEPT
     {
         static void Main(string[] argsS)
         {
-            Area_of_Rectangle r = new Area_of_Rectangle();
+            AreaOfRectangle r = new AreaOfRectangle();
             r.Area();
             r.Display();
         }
