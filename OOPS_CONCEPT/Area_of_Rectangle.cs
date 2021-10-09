@@ -3,7 +3,7 @@
 namespace OOPs_Concept
 {
     //Encapsulation Area of Rectangle
-    class Area_of_Rectangle
+    class AreaOfRectangle
     {
         // public methods of class
         private double length;
@@ -46,7 +46,7 @@ namespace OOPs_Concept
     {
         public static void Main()
         {
-            Area_of_Rectangle r = new Area_of_Rectangle();
+            AreaOfRectangle r = new AreaOfRectangle();
             r.Length = 10;
             r.Width = 20;
             Console.WriteLine("Length: " + r.Length);
